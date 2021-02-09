@@ -1,8 +1,8 @@
-Oblig X
+Oblig 1
 =======
-OsloMet brukernavn:
+OsloMet brukernavn: s351880
 
-GitHub brukernavn:
+GitHub brukernavn:enesergin
 
 GitHub repo URL:
 
