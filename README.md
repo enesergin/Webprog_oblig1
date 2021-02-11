@@ -6,7 +6,7 @@ GitHub brukernavn: enesergin
 
 GitHub repo URL: https://github.com/DATA1700/oblig-1-enesergin
 
-URL til Heroku app:
+URL til Heroku app: https://oblig-1-enesergin.herokuapp.com
 
 Fullt navn: Sebahattin Enes Ergin
 
