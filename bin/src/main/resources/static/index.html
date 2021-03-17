@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oblig 1</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h1>Bestilling av Kinobilletter</h1>
+<form action="script.js" name="form" id="form">
+    <div>
+        <label for="film">Velg film: </label>
+        <select name="film" id="film">
+            <option value="Velg film"> Velg film her</option>
+            <option value="Sannheten">Sannheten </option>
+            <option value="Bien Maja og det gylne egg">Bien Maja og det gylne egg </option>
+            <option value="The Marksman">The Marksman </option>
+            <option value="Hedersgjesten">Hedersgjesten </option>
+            <option value="Notting Hill">Notting Hill </option>
+        </select>
+        <label id="filmInput"></label>
+    </div>
+    <br>
+    <div>
+    <label for="antall">Antall</label>
+    <input type="number" id="antall" name="antall" min="1">
+        <label id="antallInput"></label>
+    </div>
+    <br>
+    <div>
+        <label for="fornavn">Fornavn</label>
+        <input type="text" id="fornavn" name="fornavn">
+        <label id="fornavnInput"></label>
+    </div>
+
+    <div>
+    <label for="etternavn">Etternavn</label>
+    <input type="text" id="etternavn" name="etternavn">
+        <label id="etternavnInput"></label>
+    </div>
+
+    <div>
+    <label for="telefon">Telefonnr</label>
+    <input type="text" id="telefon" name="telefon">
+        <label id="telefonInput"></label>
+    </div>
+
+    <div>
+        <label for="email">Epost</label>
+        <input type="text" id="email" name="email">
+        <label id="emailInput"></label>
+    </div>
+    <button type="reset" onclick="kjopBillett()">Kjøp Billett</button>
+</form>
+<h3>Antall Billetter</h3>
+<div id="visKunder"></div>
+<button onclick="slett()">Slett alle</button>
+</body>
+</html>
